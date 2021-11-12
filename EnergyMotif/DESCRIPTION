@@ -1,0 +1,23 @@
+Package: EnergyMotif
+Type: Package
+Title: Discover motifs and describe the flexibility in energy data
+Version: 0.1.0
+Authors@R: person("Nicole", "Ludwig", email = "nicole.ludwig@kit.edu", role = c("aut", "cre"))
+Maintainer: The package maintainer <nicole.ludwig@kit.edu>
+Description: Discover motifs and describe the flexibility in energy data from
+    industrial process data.
+Depends:
+    R (>= 3.1.0)
+Imports:
+    stats,
+    utils,
+    ggplot2,
+    timeDate,
+    foreach,
+    plyr,
+    TSMining,
+    arules,
+    data.table
+License: GPL-3
+LazyData: TRUE
+RoxygenNote: 6.0.1
